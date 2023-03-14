@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/mnsbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:backgroundTint="#FF5722"
+        android:drawableTint="#FF5722"
+        android:foregroundTint="#FF5722"
+        android:shadowColor="#FF5722"
+        android:text="-"
+        app:iconTint="#FF5722"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#FF5722"
+        app:strokeColor="#FF5722" />
+
+    <Button
+        android:id="@+id/plsbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quantity"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/plsbtn"
+        app:layout_constraintStart_toEndOf="@+id/mnsbtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/productname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/mnsbtn"
+        app:layout_constraintEnd_toEndOf="@+id/mnsbtn"
+        app:layout_constraintStart_toStartOf="@+id/mnsbtn" />
+
+    <TextView
+        android:id="@+id/productstock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="stock"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/plsbtn"
+        app:layout_constraintEnd_toEndOf="@+id/plsbtn"
+        app:layout_constraintStart_toStartOf="@+id/plsbtn" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#FF5722"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plsbtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
