@@ -33,3 +33,21 @@ Get images:https://drive.google.com/drive/folders/1IFCOlHiOvfoe_dJr8K_SWJcsPou6j
 # Watch project on youtube
 
 Watch video:https://youtu.be/k4Ew4yLc9_U
+
+# Implementations
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.5'
+
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'me.relex:circleindicator:2.1.6'
+    implementation 'org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0'
+
+    implementation 'com.android.volley:volley:1.2.1'
+
+    implementation 'com.github.hishd:TinyCart:1.0.1'
+
+    implementation 'com.github.delight-im:Android-AdvancedWebView:v3.2.1'
